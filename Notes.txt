@@ -1,0 +1,19 @@
+Built-in function
+    abs():
+        Returns the absolute value of a number
+            abs(n)
+    
+    all():
+        Returns True if all items in an iterable are True, Otherwise it returns False.
+        If the iterable object is empty, then it also retuns True.
+        all() only accepts one argument.
+        When used on a dictionary it checks only the key not the value.
+            all(iterable)
+            An iterable object is list, tuple, dictionary.
+    
+    any():
+        Returns True  if any items in an iterable is True.
+        If the iterable object is empty, then it returns False.
+        any() only accepts one argument.
+        When used on a dictionary it checks only the key not the value.
+            any(iterable)
